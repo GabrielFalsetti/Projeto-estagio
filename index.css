@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7fffb7;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.persuasive-text {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.plans-comparison {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 300px;
+    background-color: #fff;
+}
+
+.plan h2 {
+    text-align: center;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.price {
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    background-color: #1ea358;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #049b45;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+
+  
+nav {
+    display: flex;
+    justify-content: center;
+}
+  
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+  
+nav a:hover {
+    background-color: #555;
+}
